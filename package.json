@@ -15,7 +15,8 @@
     "prepublish": "npm run build",
     "build": "node build.js",
     "dev": "npm run build && node ./bin/card.js",
-    "lint": "standard"
+    "lint": "standard",
+    "test": "npm run build"
   },
   "keywords": [
     "card",
